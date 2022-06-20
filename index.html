@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book mark website</title>
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+          <nav>
+            <h3 class="text-muted">Bookmarker</h3>
+          </nav>
+        </div>
+  
+        <div class="jumbotron">
+          <h2>Bookmark Your Favorite Sites</h2>
+          <form id="myForm">
+            <div className='form-group'>
+                <label className="input_label red_star"><span className='label_text'>Site Name</span></label>
+                <input  type="text" class='form-control' id="siteName" required placeholder="Website Name"/>
+            </div>
+            <div className='form-group'>
+                <label className="input_label red_star"><span className='label_text'>Site URL</span></label>
+                <input  type="text" class='form-control' id="siteUrl" required placeholder="Website URL"/>
+            </div>
+            <button type="submit" value="Submit" className="button button_wide">Save your bookmark</button>
+        </form>
+        </div>
+  
+        <div class="marketing">
+            <div id="bookmarksResults">
+                <!-- <div><a>aksdjasd</a><a>delete</a></div> -->
+            </div>
+        </div>
+  
+        <footer class="footer">
+          <p>&copy; 2022 Bookmarker, Inc.</p>
+        </footer>
+  
+      </div> <!-- /container -->
+    <script src="js/main.js"></script>
+</body>
+</html>
